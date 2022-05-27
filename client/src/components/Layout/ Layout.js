@@ -1,10 +1,13 @@
 import './index.scss';
 import React from 'react'
+import Sidebar from '../Sidebar/Sidebar'
 
 
 function  Layout() {
   return (
-    <div> Layout</div>
+    <div> Layout
+      <Sidebar />
+    </div>
   )
 }
 
