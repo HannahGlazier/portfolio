@@ -1,15 +1,13 @@
 import '../App.scss'
+import { Routes, Route } from 'react-router-dom'
+import Layout from './Layout/ Layout'
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Hannah Glazier's Portfolio
-        </p>
-      </header>
-    </div>
+    <Routes>
+        <Route path='/' element={<Layout />}></Route>
+    </Routes>
   );
 }
 
