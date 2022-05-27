@@ -3,7 +3,7 @@ import './index.scss'
 import { Link, NavLink } from "react-router-dom"
 import Logo from "./Logo.png"
 
-import { FaHome, FaUser, FaEnvelope } from 'react-icons/fa';
+import { FaHome, FaUser, FaEnvelope, FaLinkedin, FaGithub, FaDev } from 'react-icons/fa';
 
 
 function Sidebar() {
@@ -40,6 +40,32 @@ return (
                 {FaEnvelope}
             </NavLink>
         </nav>
+        <ul>
+            <li>
+                <a
+                    target="blank"
+                    rel="noreferrer"
+                    href="https://www.linkedin.com/in/hannah-glazier-3a214a231/"
+                    aria-label="LinkedIn"
+                ><FaLinkedin color="#4d4d4e"/></a>
+            </li>
+            <li>
+                <a
+                    target="blank"
+                    rel="noreferrer"
+                    href="https://github.com/HannahGlazier"
+                    aria-label="GitHub"
+                ><FaGithub color="#4d4d4e"/></a>
+            </li>
+            <li>
+                <a
+                    target="blank"
+                    rel="noreferrer"
+                    href="https://dev.to/hannahglazier"
+                    aria-label="Dev Blog"
+                ><FaDev color="#4d4d4e"/></a>
+            </li>
+        </ul>
     </div>
 )
 }
