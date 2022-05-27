@@ -1,12 +1,17 @@
 import React from 'react'
 import './index.scss';
+import HTest from '../../assets/images/HTest.png'
+import h from '../../assets/images/h.png'
+import LogoTitle from '../../assets/images/logo-s.png'
 import { Link } from "react-router-dom"
 
 function Home() {
     return (
         <div className="container home-page">
             <div className="text-zone">
-                <h1>Hi, <br/> I'm Hannah
+                <h1>Hi, <br/> I'm 
+                    <h1 id="H">H</h1>
+                        annah
                     <br /> 
                     Software Engineer
                 </h1>
