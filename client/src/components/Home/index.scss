@@ -38,15 +38,6 @@
             animation: fadeIn 1s 1.7s backwards;
             opacity: 0.6;
         }
-
-        img {
-            width: 32px;
-            margin-left: 20x;
-            opacity: 0;
-            height: auto;
-            animation: rotateIn 1s linear both;
-            animation-delay: 1.4s;
-        }
     }
 
     h2 {
@@ -79,3 +70,13 @@
         color: #333;
     }
 }
+
+#H {
+    width: 32px;
+    margin-left: 20x;
+    opacity: 0;
+    height: auto;
+    animation: rotateIn 1s linear both;
+    animation-delay: 1.4s;
+}
+// need to move this 
