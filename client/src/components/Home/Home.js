@@ -20,21 +20,17 @@ function Home() {
     return (
         <div className="container home-page">
             <div className="text-zone">
-            <h1> 
-                <span className={letterClass}>H</span>
-                <span className={`${letterClass} _12`}>i,</span>
-                
-                    {/* <br/> I'm <br />  */}
+                <h1> 
+                    <span className={letterClass}>H</span>
+                    <span className={`${letterClass} _12`}>i,</span>
                     <br />
                     <span className={`${letterClass} _13`}>I</span>
                     <span className={`${letterClass} _14`}>'m</span>
                     <br />
                     <p id="H">H</p>
-                        {/* annah */}
                         <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={13}/>
 
                     <br /> 
-                    {/* Software Engineer */}
                     <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={19}/>
                 </h1>
                 <h2> Fullstack Developer / Experienced in React - Rails Stack</h2>
