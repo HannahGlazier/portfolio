@@ -10,8 +10,9 @@ function Home() {
         <div className="container home-page">
             <div className="text-zone">
                 <h1>Hi, <br/> I'm 
-                    <h1 id="H">H</h1>
+                    <p id="H">H</p>
                         annah
+
                     <br /> 
                     Software Engineer
                 </h1>
