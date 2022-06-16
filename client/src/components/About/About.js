@@ -3,9 +3,9 @@ import './index.scss';
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-    faAngular,
+    faJs,
     faCss3,
-    faGitAlt,
+    faRuby,
     faHtml5,
     faJsSquare,
     faReact,
@@ -38,7 +38,7 @@ useEffect(() => {
             <div className="stage-cube-cont">
                 <div className="cubespinner">
                     <div className="face1">
-                        <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+                        {/* <FontAwesomeIcon icon={faJs} color="#DD0031" /> */}
                     </div>
                     <div className="face2">
                         <FontAwesomeIcon icon={faHtml5} color="#F06529" />
@@ -53,7 +53,7 @@ useEffect(() => {
                         <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
                     </div>
                     <div className="face6">
-                        <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+                        {/* <FontAwesomeIcon icon={faRuby} color="#EC4D28" /> */}
                     </div>
                 </div>
             </div>
