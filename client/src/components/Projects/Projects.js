@@ -126,6 +126,34 @@ function Projects() {
                     </CardActions>
                 </Card> 
 
+                {/* Recipe Box Project */}
+
+                <Card sx={{ maxWidth: 345 }} className="card">
+                    <CardMedia
+                        component="img"
+                        height="140"
+                        image="https://github.com/HannahGlazier/recipe-box/raw/main/public/images/LibraryPic.png"
+                        alt="Recipe Box App"
+                    />
+                    <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                            Recipe Box
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                            Plan your meals with Recipe Box! Find and save new recipes and add some of your favorites!
+                        </Typography>
+                    </CardContent>
+                    <CardActions>
+                        <Button 
+                            size="small"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                window.location.href='https://github.com/HannahGlazier/recipe-box';
+                                }}
+                        >GitHub</Button>
+                    </CardActions>
+                </Card> 
+
             </div>
         </ThemeProvider>
     )
