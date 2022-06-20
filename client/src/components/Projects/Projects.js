@@ -12,27 +12,45 @@ import Typography from '@mui/material/Typography';
 function Projects() {
     return (
         <div>
+
+            {/* Diver Project */}
+
             <Card sx={{ maxWidth: 345 }} className="cards">
                 <CardMedia
                     component="img"
                     height="140"
-                    image="https://images.unsplash.com/photo-1655721529468-d0d81b2dc489?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNXx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60"
-                    alt="green iguana"
+                    image="https://github.com/HannahGlazier/diver/raw/main/client/public/images/signin.png"
+                    alt="Diver App"
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
-                    Lizard
+                    Diver
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000
-                    species, ranging across all continents except Antarctica
+                        A social activity tracker for SCUBA diving! Diver offers a space to safely create and store your dive logs and follow along with yours friends' dive activity. 
                     </Typography>
                 </CardContent>
                 <CardActions>
-                    <Button size="small">Share</Button>
-                    <Button size="small">Learn More</Button>
+                    <Button 
+                        size="small"
+                        onClick={(e) => {
+                            e.preventDefault();
+                            window.location.href='https://github.com/HannahGlazier/diver';
+                            }}
+                    >GitHub</Button>
+                    <Button 
+                        size="small"
+                        onClick={(e) => {
+                            e.preventDefault();
+                            window.location.href='https://diverr.herokuapp.com/';
+                            }}
+                    >Deployed Link</Button>
                 </CardActions>
-                </Card> 
+            </Card> 
+
+            {/* Citinerary Project */}
+
+            
         </div>
     )
 }
