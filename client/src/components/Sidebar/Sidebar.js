@@ -3,7 +3,7 @@ import './index.scss'
 import { Link, NavLink } from "react-router-dom"
 import Logo from "./Logo.png"
 
-import { FaHome, FaUser, FaEnvelope, FaLinkedin, FaGithub, FaDev } from 'react-icons/fa';
+import { FaHome, FaUser, FaEnvelope, FaLinkedin, FaGithub, FaDev, FaProjectDiagram } from 'react-icons/fa';
 
 
 function Sidebar() {
@@ -38,6 +38,15 @@ return (
             color="#4d4de"
             >
                 {FaEnvelope}
+            </NavLink>
+            <NavLink 
+            exact="true" 
+            activeclassname="active" 
+            className="project-link" 
+            to="/projects"
+            color="#4d4de"
+            >
+                {FaProjectDiagram}
             </NavLink>
         </nav>
         <ul>
