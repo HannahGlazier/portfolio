@@ -91,6 +91,41 @@ function Projects() {
                     </CardActions>
                 </Card> 
 
+                {/* The Nighttime Routine Project */}
+
+                <Card sx={{ maxWidth: 345 }} className="card">
+                    <CardMedia
+                        component="img"
+                        height="140"
+                        image="https://github.com/HannahGlazier/the-nighttime-routine-frontend/blob/main/nighttime-routine-frontend/public/ProductList.png?raw=true"
+                        alt="The Nighttime Routine App"
+                    />
+                    <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                            The Nighttime Routine
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                            The Nighttime Routine is a space for skincare lovers to find and share products and plan future purchases with their own wish list. 
+                        </Typography>
+                    </CardContent>
+                    <CardActions>
+                        <Button 
+                            size="small"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                window.location.href='https://github.com/HannahGlazier/the-nighttime-routine-frontend';
+                                }}
+                        >GitHub (Frontend)</Button>
+                        <Button 
+                            size="small"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                window.location.href='https://github.com/HannahGlazier/the-nighttime-routine-backend';
+                                }}
+                        >GitHub (Backend)</Button>
+                    </CardActions>
+                </Card> 
+
             </div>
         </ThemeProvider>
     )
