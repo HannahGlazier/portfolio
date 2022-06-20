@@ -1,8 +1,11 @@
 .cards {
-    position: absolute;
+    position: relative;
     left: 10%;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 40%;
-    max-height: 90%;
+    top: 20%;
+    padding: 20px;
+    display: inline-flex;
+}
+
+.card {
+    margin: 10px;
 }
