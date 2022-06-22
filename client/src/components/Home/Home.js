@@ -4,6 +4,7 @@ import { Link } from "react-router-dom"
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
 import Loader from 'react-loaders'
 import Profile from './Profile.png'
+import { DiJavascript1 } from "react-icons/di";
 
 function Home() {
     const [letterClass, setLetterClass] = useState('text-animate')
