@@ -3,6 +3,7 @@ import './index.scss';
 import { Link } from "react-router-dom"
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
 import Loader from 'react-loaders'
+import Profile from './Profile.png'
 
 function Home() {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -34,6 +35,7 @@ function Home() {
                 <h2> Fullstack Developer / Experienced in the JavaScript - React.js - Rails</h2>
                 <Link to="/contact" className="flat-button">CONTACT ME</Link>
             </div>
+            <img className="profile" src={Profile} alt="Hannah Glazier"/>
             <Loader type="pacman" />
         </div>
     )
