@@ -53,7 +53,7 @@
         h1 {
             font-size: 53px;
             font-family: 'Coolvetica';
-            color: #EE964B;
+            color: #0A1128;
             font-weight: 400;
             margin-top: 0;
             position: relative;
@@ -69,6 +69,7 @@
                 left: -10px;
                 opacity: 0.6;
                 line-height: 18px;
+                color: #EE964B;
             }
 
             &::after {
@@ -81,12 +82,13 @@
                 bottom: -20px;
                 margin-left: 20px;
                 opacity: 0.6;
+                color: #EE964B;
             }
         }
 
         p {
             font-style: 13px;
-            color: #fff;
+            color: #0A1128;
             font-family: 'sans-serif';
             font-weight: 300;
             min-width: fit-content;
@@ -107,7 +109,7 @@
     }
     .text-animate-hover {
         &:hover {
-            color: #fff;
+            color: #5C7AFF;
         }
     }
 }
