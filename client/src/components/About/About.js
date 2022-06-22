@@ -1,13 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-    faCss3,
-    faHtml5,
-    faJsSquare,
-    faCuttlefish,
-} from '@fortawesome/free-brands-svg-icons'
 import { DiJsBadge, DiRuby, DiCss3Full, DiReact, DiHtml5, DiGitBranch} from "react-icons/di";
 import Loader from 'react-loaders'
 
@@ -40,19 +33,15 @@ useEffect(() => {
                         <DiGitBranch />
                     </div>
                     <div className="face2">
-                        {/* <FontAwesomeIcon icon={faHtml5} color="#F06529" /> */}
                         <DiRuby />
                     </div>
                     <div className="face3">
-                        {/* <FontAwesomeIcon icon={faCss3} color="#28A4D9" /> */}
                         <DiCss3Full />
                     </div>
                     <div className="face4">
-                        {/* <FontAwesomeIcon icon={faCuttlefish} /> */}
                         <DiReact />
                     </div>
                     <div className="face5">
-                        {/* <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" /> */}
                         <DiHtml5 />
                     </div>
                     <div className="face6">
@@ -60,7 +49,7 @@ useEffect(() => {
                     </div>
                 </div>
             </div>
-            <Loader type="pacman" />
+            <Loader type="line-scale" />
         </div>
     )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Projects.scss';
+import Loader from 'react-loaders'
 
 // Material UI Imports
 import Card from '@mui/material/Card';
@@ -155,6 +156,7 @@ function Projects() {
                 </Card> 
 
             </div>
+        <Loader type="line-scale" />
         </ThemeProvider>
     )
 }

@@ -37,7 +37,7 @@ function Home() {
                 <Link to="/contact" className="flat-button">CONTACT ME</Link>
             </div>
             <img className="profile" src={Profile} alt="Hannah Glazier"/>
-            <Loader type="pacman" />
+            <Loader type="line-scale" />
         </div>
     )
 }
