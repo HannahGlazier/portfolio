@@ -2,6 +2,7 @@ import React from 'react'
 import './index.scss'
 import { Link, NavLink } from "react-router-dom"
 import Logo from "./Logo.png"
+import HG from "./HG.png"
 
 import { FaHome, FaUser, FaEnvelope, FaLinkedin, FaGithub, FaDev, FaProjectDiagram } from 'react-icons/fa';
 
@@ -10,7 +11,7 @@ function Sidebar() {
 return (
     <div className="nav-bar">
         <Link className="logo" to="/">
-            <img src={Logo} alt="logo"></img>
+            {/* <img src={HG} alt="logo"></img> */}
         </Link>
         <nav>
             <NavLink 
