@@ -3,9 +3,7 @@ import './index.scss';
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-    faJs,
     faCss3,
-    faRuby,
     faHtml5,
     faJsSquare,
     faReact,
@@ -53,7 +51,7 @@ useEffect(() => {
                         <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
                     </div>
                     <div className="face6">
-                        {/* <FontAwesomeIcon icon={faRuby} color="#EC4D28" /> */}
+
                     </div>
                 </div>
             </div>
