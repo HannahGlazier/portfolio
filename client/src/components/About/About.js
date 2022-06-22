@@ -6,8 +6,9 @@ import {
     faCss3,
     faHtml5,
     faJsSquare,
-    faReact,
+    faCuttlefish,
 } from '@fortawesome/free-brands-svg-icons'
+import { DiJsBadge, DiRuby, DiCss3Full, DiReact, DiHtml5, DiGitBranch} from "react-icons/di";
 import Loader from 'react-loaders'
 
 function About() {
@@ -36,22 +37,26 @@ useEffect(() => {
             <div className="stage-cube-cont">
                 <div className="cubespinner">
                     <div className="face1">
-                        <FontAwesomeIcon  icon={faReact} color="#5ED4F4" />
+                        <DiGitBranch />
                     </div>
                     <div className="face2">
-                        <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+                        {/* <FontAwesomeIcon icon={faHtml5} color="#F06529" /> */}
+                        <DiRuby />
                     </div>
                     <div className="face3">
-                        <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+                        {/* <FontAwesomeIcon icon={faCss3} color="#28A4D9" /> */}
+                        <DiCss3Full />
                     </div>
                     <div className="face4">
-                        <FontAwesomeIcon  icon={faReact} color="#5ED4F4" />
+                        {/* <FontAwesomeIcon icon={faCuttlefish} /> */}
+                        <DiReact />
                     </div>
                     <div className="face5">
-                        <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+                        {/* <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" /> */}
+                        <DiHtml5 />
                     </div>
                     <div className="face6">
-
+                        <DiJsBadge />
                     </div>
                 </div>
             </div>
