@@ -25,7 +25,8 @@ useEffect(() => {
                 </h1>
                 <p>Experienced in JavaScript, React, Ruby, Ruby on Rails, HTML, CSS, Material UI, Semantic UI, Git, VC, React Signature Canvas, Authorization </p>
                 <p>I am a developer who recently made the transition to tech from the nonprofit world. My background is in international affairs, refugee resettlement, and public benefits. This experience led me to develop a love for navigating and developing complex systems, especially with respect to increasing efficiency and user experience. My path to coding and development was not a direct one, but I quickly fell in love with the unique balance of the technical and the creative and the idea of an industry that encourages constant and continued learning. I am eager build and learn more. </p>
-                <p>I would love to chat about future opportunities and collaborations!</p>
+                <p>I would love to chat about future opportunities and collaborations! Please view my resume below.</p>
+                <a className="flat-button" href="https://drive.google.com/file/d/1rDDDQ_hi8jHrHrdHSrwJD-EaGDhvlH4-/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
             </div>
             <div className="stage-cube-cont">
                 <div className="cubespinner">
